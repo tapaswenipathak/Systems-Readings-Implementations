@@ -1,3 +1,7 @@
+/**
+ * Structure declaration and definition.
+ */
+
 #include <vector>
 
 struct disk

@@ -1,3 +1,7 @@
+/**
+ * Implementation of First Come First Serve Disk Scheduling Algorithm.
+ */
+
 #include <iostream>
 #include <algorithm>
 #include <cstdio>

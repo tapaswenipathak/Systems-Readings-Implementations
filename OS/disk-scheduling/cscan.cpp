@@ -1,3 +1,7 @@
+/**
+ * Implementation of CSCAN Algorithm
+ */
+
 #include <iostream>
 #include <algorithm>
 #include <cstdio>

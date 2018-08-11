@@ -8,10 +8,9 @@
 
 /*
  * Find your system call number from syscall_64.tbl.
- * I have amd64 so mine was present inside amd64/x86/..
  */
 
-#define SYS_hellp 324
+#define SYS_hello syscall_sequence_number
 
 int main(int argc, char **argv)
 {

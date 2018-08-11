@@ -1,20 +1,23 @@
-## Operating Systems Memory Allocation Algorithm
+## Operating Systems Disk Scheduling Algorithms
 
-This contains implementation of Memory Allocation Algorithms.
+This contains implementation of Disk Scheduling Algorithms.
 
-1. Best Fit
-2. Worst Fit
-3. First Fit
-4. Next Fit
+1. First Come First Serve
+2. Shortest Seek Time First
+3. SCAN
+4. C-SCAN
+5. LOOK
+6. CLOOK
 
-The programs outputs the block process_id is allocated to. Do you know any other algorithm which
+The programs outputs the total seek time taken by following the algorithm and sequence
+in which the track number request were served. Do you know any other algorithm which
 is present in books mentioned that I missed writing here, open a issue in the repository
-or a PR with the code following the current structure. For advanced readings implementation
+or a PR with the code following the current structure. For advanced algorithm implementation
 see [this](https://github.com/tapasweni-pathak/Systems-Readings-Implementations/tree/master/AOS/Conferences).
 
 #### Structure of files and Some code info on how to add a new algorithm implementaion
-`struct.h` has a structure declaration and definition of a memeory unit and all files
-uses the object and varibales in the structure.
+`struct.h` has a structure declaration and definition and all files uses the object
+and varibales in the structure.
 
 Every algorithm is implemented as file-name.cpp.
 
